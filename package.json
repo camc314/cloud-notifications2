@@ -1,0 +1,27 @@
+{
+    "name": "cloud-notifications2-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack-dev-server --open"
+    },
+    "author": "Cameron Clark",
+    "license": "ISC",
+    "dependencies": {
+        "@openfin/cloud-api": "^0.0.1-alpha.4f8b7372",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.23.9",
+        "@babel/preset-env": "^7.23.9",
+        "@babel/preset-react": "^7.23.3",
+        "babel-loader": "^9.1.3",
+        "copy-webpack-plugin": "^12.0.2",
+        "webpack": "^5.90.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.1"
+    }
+}
